@@ -100,12 +100,36 @@ body{
 
 @media screen and (max-width:500px){
     .Text{
-        border: 2px solid red;
+        text-align: center;
+    }
+    .Text p{
+        width: 90%;
     }
     .sub{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-top: 30%;
+        margin-left: 20px;
+        gap: 20px;
+    }
+    .blue{
+        width: 93%;
+    }
+    .blue img{
+        margin-top: 0;
+    }
+    .green{
+        width: 93%;
+    }
+    .red{
         width: 90%;
-        border: 2px solid red;
+    }
+    .red img{
+        margin-top: 0;
+    }
+    .yellow{
+        width: 90%;
+        margin-top: 30px;
     }
 }
